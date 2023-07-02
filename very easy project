@@ -1,0 +1,20 @@
+Bubblegum = 202
+Toffee = 118
+Ice_cream = 2250
+Milk_chocolate = 1680
+Doughnut = 1075
+Pancake = 80
+total = Bubblegum + Toffee + Ice_cream + Milk_chocolate + Doughnut + Pancake
+
+print("""Earned amount:
+Bubblegum: $202
+Toffee: $118
+Ice cream: $2250
+Milk chocolate: $1680
+Doughnut: $1075
+Pancake: $80""")
+
+print(f'\nIncome: ${float(total)}')
+Staff_exp = int(input("Staff expenses:"))
+Other_exp = int(input('Other expenses:'))
+print(f'Net income: ${(total - Staff_exp - Other_exp)}')
